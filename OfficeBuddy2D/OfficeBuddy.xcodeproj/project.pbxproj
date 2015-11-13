@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE51F2651BF5821200B925F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE51F2641BF5821200B925F8 /* main.m */; };
+		FE51F2681BF5821200B925F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE51F2671BF5821200B925F8 /* AppDelegate.m */; };
+		FE51F26B1BF5821200B925F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE51F26A1BF5821200B925F8 /* ViewController.m */; };
+		FE51F26E1BF5821200B925F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE51F26C1BF5821200B925F8 /* Main.storyboard */; };
+		FE51F2701BF5821200B925F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE51F26F1BF5821200B925F8 /* Assets.xcassets */; };
+		FE51F2731BF5821200B925F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE51F2711BF5821200B925F8 /* LaunchScreen.storyboard */; };
+		FE51F27C1BF582C200B925F8 /* MenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FE51F27B1BF582C200B925F8 /* MenuButton.m */; };
+		FE51F27F1BF5840500B925F8 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE51F27E1BF5840500B925F8 /* CenterViewController.m */; };
+		FE51F2821BF5867F00B925F8 /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FE51F2811BF5867F00B925F8 /* MenuItem.m */; };
+		FE51F2851BF589D600B925F8 /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE51F2841BF589D500B925F8 /* SideMenuViewController.m */; };
+		FE51F2881BF58B4200B925F8 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE51F2871BF58B4200B925F8 /* ContainerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE51F2601BF5821200B925F8 /* OfficeBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfficeBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE51F2641BF5821200B925F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE51F2661BF5821200B925F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE51F2671BF5821200B925F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE51F2691BF5821200B925F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE51F26A1BF5821200B925F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE51F26D1BF5821200B925F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE51F26F1BF5821200B925F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE51F2721BF5821200B925F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE51F2741BF5821200B925F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE51F27A1BF582C200B925F8 /* MenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuButton.h; sourceTree = "<group>"; };
+		FE51F27B1BF582C200B925F8 /* MenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuButton.m; sourceTree = "<group>"; };
+		FE51F27D1BF5840500B925F8 /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		FE51F27E1BF5840500B925F8 /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+		FE51F2801BF5867F00B925F8 /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItem.h; sourceTree = "<group>"; };
+		FE51F2811BF5867F00B925F8 /* MenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItem.m; sourceTree = "<group>"; };
+		FE51F2831BF589D500B925F8 /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuViewController.h; sourceTree = "<group>"; };
+		FE51F2841BF589D500B925F8 /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuViewController.m; sourceTree = "<group>"; };
+		FE51F2861BF58B4200B925F8 /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		FE51F2871BF58B4200B925F8 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE51F25D1BF5821200B925F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE51F2571BF5821200B925F8 = {
+			isa = PBXGroup;
+			children = (
+				FE51F2621BF5821200B925F8 /* OfficeBuddy */,
+				FE51F2611BF5821200B925F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE51F2611BF5821200B925F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE51F2601BF5821200B925F8 /* OfficeBuddy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE51F2621BF5821200B925F8 /* OfficeBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				FE51F2661BF5821200B925F8 /* AppDelegate.h */,
+				FE51F2671BF5821200B925F8 /* AppDelegate.m */,
+				FE51F2691BF5821200B925F8 /* ViewController.h */,
+				FE51F26A1BF5821200B925F8 /* ViewController.m */,
+				FE51F27A1BF582C200B925F8 /* MenuButton.h */,
+				FE51F27B1BF582C200B925F8 /* MenuButton.m */,
+				FE51F27D1BF5840500B925F8 /* CenterViewController.h */,
+				FE51F27E1BF5840500B925F8 /* CenterViewController.m */,
+				FE51F2801BF5867F00B925F8 /* MenuItem.h */,
+				FE51F2811BF5867F00B925F8 /* MenuItem.m */,
+				FE51F2831BF589D500B925F8 /* SideMenuViewController.h */,
+				FE51F2841BF589D500B925F8 /* SideMenuViewController.m */,
+				FE51F2861BF58B4200B925F8 /* ContainerViewController.h */,
+				FE51F2871BF58B4200B925F8 /* ContainerViewController.m */,
+				FE51F26C1BF5821200B925F8 /* Main.storyboard */,
+				FE51F26F1BF5821200B925F8 /* Assets.xcassets */,
+				FE51F2711BF5821200B925F8 /* LaunchScreen.storyboard */,
+				FE51F2741BF5821200B925F8 /* Info.plist */,
+				FE51F2631BF5821200B925F8 /* Supporting Files */,
+			);
+			path = OfficeBuddy;
+			sourceTree = "<group>";
+		};
+		FE51F2631BF5821200B925F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE51F2641BF5821200B925F8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE51F25F1BF5821200B925F8 /* OfficeBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE51F2771BF5821200B925F8 /* Build configuration list for PBXNativeTarget "OfficeBuddy" */;
+			buildPhases = (
+				FE51F25C1BF5821200B925F8 /* Sources */,
+				FE51F25D1BF5821200B925F8 /* Frameworks */,
+				FE51F25E1BF5821200B925F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OfficeBuddy;
+			productName = OfficeBuddy;
+			productReference = FE51F2601BF5821200B925F8 /* OfficeBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE51F2581BF5821200B925F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "方";
+				TargetAttributes = {
+					FE51F25F1BF5821200B925F8 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = FE51F25B1BF5821200B925F8 /* Build configuration list for PBXProject "OfficeBuddy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE51F2571BF5821200B925F8;
+			productRefGroup = FE51F2611BF5821200B925F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE51F25F1BF5821200B925F8 /* OfficeBuddy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE51F25E1BF5821200B925F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE51F2731BF5821200B925F8 /* LaunchScreen.storyboard in Resources */,
+				FE51F2701BF5821200B925F8 /* Assets.xcassets in Resources */,
+				FE51F26E1BF5821200B925F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE51F25C1BF5821200B925F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE51F27C1BF582C200B925F8 /* MenuButton.m in Sources */,
+				FE51F26B1BF5821200B925F8 /* ViewController.m in Sources */,
+				FE51F2681BF5821200B925F8 /* AppDelegate.m in Sources */,
+				FE51F2821BF5867F00B925F8 /* MenuItem.m in Sources */,
+				FE51F2651BF5821200B925F8 /* main.m in Sources */,
+				FE51F2851BF589D600B925F8 /* SideMenuViewController.m in Sources */,
+				FE51F2881BF58B4200B925F8 /* ContainerViewController.m in Sources */,
+				FE51F27F1BF5840500B925F8 /* CenterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE51F26C1BF5821200B925F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE51F26D1BF5821200B925F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE51F2711BF5821200B925F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE51F2721BF5821200B925F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE51F2751BF5821200B925F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE51F2761BF5821200B925F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE51F2781BF5821200B925F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OfficeBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiayoufang.OfficeBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE51F2791BF5821200B925F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OfficeBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiayoufang.OfficeBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE51F25B1BF5821200B925F8 /* Build configuration list for PBXProject "OfficeBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE51F2751BF5821200B925F8 /* Debug */,
+				FE51F2761BF5821200B925F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE51F2771BF5821200B925F8 /* Build configuration list for PBXNativeTarget "OfficeBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE51F2781BF5821200B925F8 /* Debug */,
+				FE51F2791BF5821200B925F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE51F2581BF5821200B925F8 /* Project object */;
+}
