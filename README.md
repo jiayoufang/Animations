@@ -19,3 +19,6 @@
 
 #####文字渐变动画实现的例子
 项目名 SlideToReveal
+
+#####粒子效果失效
+项目名 EmitterLayer
