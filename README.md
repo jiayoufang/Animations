@@ -16,3 +16,6 @@
 
 #####KeyFrameLayer动画实现的例子
 项目名 KeyFrameLayer
+
+#####文字渐变动画实现的例子
+项目名 SlideToReveal
