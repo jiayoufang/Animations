@@ -25,3 +25,6 @@
 
 #####UIImageView帧动画实现
 项目名 UIImageViewAniamtions
+
+#####实现Present动画的自定义
+项目名 PresentationControllerAnimations
