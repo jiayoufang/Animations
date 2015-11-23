@@ -22,3 +22,6 @@
 
 #####粒子效果失效
 项目名 EmitterLayer
+
+#####UIImageView帧动画实现
+项目名 UIImageViewAniamtions
